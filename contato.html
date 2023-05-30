@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;700&ampdisplay=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Projeto Orientado | Sistemas para Internet</title>
 </head>
@@ -30,20 +29,20 @@
                     <ul class="nav-items">
                         <li class="navList">
                             <a href="home.html">Home</a>
-                        </li class="navList">
-                        <li>
+                        </li>
+                        <li class="navList">
                             <a href="tabela.html">Tabela</a>
                         </li>
                         <li class="navList">
                             <a href="sites.html">Sites</a>
                         </li>
-                        <li class="dropdown" class="navlist">
+                        <li class="dropdown navlist">
                             <a>Sobre nós</a>
                             <ul class="dropdown-content">
-                                <li class="navList" class="dropli">
+                                <li class="navList dropli">
                                     <a href="matheus.html">Matheus</a>
                                 </li>
-                                <li class="navList">
+                                <li class="navList dropli">
                                     <a href="cristhofer.html">Cristhofer</a>
                                 </li>
                             </ul>
@@ -56,34 +55,35 @@
             </nav>
         </header>
 
-        <h1 class="titleCont">Contato</h1>
+        <h2 class="titleCont">Contato</h2>
 
-        <div class="grupoform">
-            <label for="name" class="taglabel">Nome</label>
+        <div id="cont">
+
+            <label for="nome" class="taglabel" id="nomelb">Nome</label>
+            <label for="email" class="taglabel" id="emaillb">Email</label>
+            
             <input type="text" name="nome" id="nome" placeholder="Nome completo" class="controlform">
-        </div>
+    <!-- </div>
 
-        <div class="grupoform">
-            <label for="email" class="taglabel">Email</label>
+    <div class="grupoform"> -->
             <input type="email" id="email" name="email" placeholder="Seu melhor email" class="controlform">
-        </div>
 
-        <div class="grupoform">
-            <label class="taglabel">Assunto</label>
-            <input type="text" name="assunto" placeholder="Assunto da mensagem" class="controlform">
+    </div>
+
+        <div>
+            <label class="taglabel" id="assuntolb">Assunto</label>
+            <input type="text" name="assunto" id="assunto" placeholder="Assunto da mensagem" class="controlform">
         </div>
 
         <div class="grupoform">
             <label class="tagmensagem">Mensagem</label>
-            <textarea name="mensagem" rows="6" class="controltext" placeholder="Mensagem"></textarea>
+            <textarea name="mensagem" rows="5" class="controltext" placeholder="Mensagem"></textarea>
         </div>
 
         <div class="grupoform">
             <input type="submit" value="Enviar" class="tagbotao">
         </div>
 
-
-        <footer>
             <address class="address">
                 <strong>FATEC Baixada Santista - Rubens Lara</strong><br> <!-- A tag strong deixa em negrito-->
                 Av. Senador Feijó, 350 - Vila Mathias <br>
@@ -91,7 +91,8 @@
                 Telefone: (13) 3227-6003 <br>
                 <a href="http://www.fatecrl.edu.br" target="_blank" class="linkEnder">http://www.fatecrl.edu.br</a><br>
             </address>
-        </footer>
+
+    </div>
 
 
 </body>

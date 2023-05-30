@@ -1,4 +1,4 @@
-@keyframes animaçao {
+@keyframes animacao {
     0% {
         color: #fff;
     }
@@ -92,7 +92,7 @@
     margin-top: 8%;
     color: #fff;
 
-    animation-name: animaçao;
+    animation-name: animacao;
     animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
@@ -314,8 +314,6 @@ caption {
     list-style: circle;
     display: flex;
     align-items: center;
-    justify-content: left;
-    margin-right: 40%;
     margin-left: 28%;
     margin-top: 2%;
 }
@@ -323,12 +321,7 @@ caption {
 .listaSiteC {
     font-size: 25px;
     color: #fff;
-    display: flex;
-    align-items: right;
-    justify-content: right;
-    margin-right: 25%;
-    margin-top: -8%;
-    /* Está errado XXXXXXXXXXXXXXXXXXXXXX */
+    margin-left: 45%;
 }
 
 .linkSite {
@@ -360,6 +353,40 @@ caption {
     font-size: 40px;
 }
 
+#nome, #email{
+    max-width: 40%;
+}
+
+#nome{
+    margin-left: 5%;
+}
+
+#email{
+    margin-left: 2%;
+}
+
+
+#nomelb{
+    padding-right: 250px;
+    margin-left: 20%;
+}
+
+#emaillb{
+    padding-left: 200px;
+
+}
+
+#assuntolb{
+    padding-left: 10px;
+    margin-right: 11%;
+    margin-left: 40%;
+}
+
+#assunto{
+    width: 83%;
+    margin-left: 5%;
+}
+
 .controlform {
     color: #fff;
     width: 1000px;
@@ -371,16 +398,17 @@ caption {
 .controltext {
     color: #fff;
     margin-top: 30px;
-    width: 1400px;
+    margin-right: 6%;
+    width: 83%;
     height: 200px;
     background-color: #000;
 }
 
-::-webkit-input-placeholder {
+/* ::-webkit-input-placeholder {
     font-size: 15px;
     color: gray;
     font-weight: bold;
-}
+} */
 
 .tagmensagem {
     color: #fff;
